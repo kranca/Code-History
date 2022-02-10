@@ -34,7 +34,23 @@ struct Question: Hashable {
         Question(
             questionText: "What version of iOS introduced dark mode?",
             possibleAnswers: ["iOS 10", "iOS 11", "iOS12", "iOS13"],
-            correctAnswerIndex: 3)
+            correctAnswerIndex: 3),
+        Question(
+            questionText: "Who was the first programmer?",
+            possibleAnswers: ["Alan Turing", "Ada Lovelace", "Guido van Rossum", "Dennis Ritchie"],
+            correctAnswerIndex: 1),
+        Question(
+            questionText: "In what year was swift 1.0 released?",
+            possibleAnswers: ["2010", "2013", "2014", "2020"],
+            correctAnswerIndex: 2),
+        Question(
+            questionText: "In what year was the SwiftUI framework introduced?",
+            possibleAnswers: ["2015", "2016", "2018", "2019"],
+            correctAnswerIndex: 3),
+        Question(
+            questionText: "What language did iOS developers use before swift?",
+            possibleAnswers: ["Objective-C", "Python", "Typescript", "Java"],
+            correctAnswerIndex: 0)
     ]
 }
 
